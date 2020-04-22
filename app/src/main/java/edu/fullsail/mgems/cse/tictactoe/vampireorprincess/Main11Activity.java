@@ -25,7 +25,7 @@ import static java.lang.String.valueOf;
 public class Main11Activity extends AppCompatActivity implements RoomListener {
 
 
-    private String channelID = "1cMvzLJ9zulABJQg";
+    private String channelID = "";
     private String roomName = "observable-room";
     private EditText editText;
     private Scaledrone scaledrone;
