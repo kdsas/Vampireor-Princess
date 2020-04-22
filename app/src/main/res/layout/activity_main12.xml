@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Main12Activity">
 
-    <edu.fullsail.mgems.cse.tictactoe.vampireorprincess.PaintView
-        android:id="@+id/painter"
-        android:layout_width="411dp"
-        android:layout_height="434dp"
+
+    <edu.fullsail.mgems.cse.tictactoe.vampireorprincess.ItemView
+        android:id="@+id/area"
+        android:layout_width="414dp"
+        android:layout_height="559dp"
         android:layout_marginTop="172dp"
         android:background="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,6 +36,40 @@
         android:layout_marginTop="96dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="96dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="104dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_iv"
+        android:layout_width="92dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barbie" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@color/colorPrimary"
+        android:text="Inventory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
